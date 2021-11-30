@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>Dolmatia</name>
+	<creationDate>mai/10</creationDate>
+	<author>globbers</author>
+	<authorEmail>globbers@hotmail.fr</authorEmail>
+	<authorUrl>http://www.globbersthemes.com</authorUrl>
+	<license>creative commons license</license>
+	<version>1.0</version>
+	<description>Dolmatia, design by globbers for globbersthemes.
+	
+	<![CDATA[<h1>DOLMATIA Free Template </h1>
+
+			<img src="http://www.globbersthemes.com/images//dolmatia.jpg" align="left" style="margin: 0px 10px 10px 0px;" />
+
+			<span style="font-size: 13px;">
+			DOLMATIA template is a free template ,design by globbers.
+			<span style="color:red; font-weight: bold; ">!Not for commercial!!!</span> <br />							
+			
+		
+			<br />Visit globbersthemes: <a href="http://www.globbersthemes.com/">http://www.globbersthemes.com</a>.
+	
+			</span>
+
+			<br /><br />]]>
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+		<filename>suckerfish.php</filename>
+		<filename>css/tdefaut.css</filename>
+		<filename>css/ie6.css</filename>
+		<filename>css/orange.css</filename>
+		<filename>css/cyan.css</filename>
+		<filename>js/scroll.js</filename>
+		<filename>js/mouseover.js</filename>
+		<filename>js/cufon-yui.js</filename>
+		<filename>js/cufon-replace.js</filename>
+		<filename>js/Tw_Cen_MT_400.font.js</filename>
+		<filename>scripts/iepngfix.htc</filename>
+		<filename>favicon.gif</filename>
+		<filename>images/dolmatia-bg.jpg</filename>
+		<filename>images/dolmatia-topmenu-bg.png</filename>
+		<filename>images/bgmenuli.jpg</filename>
+		<filename>images/top.jpg</filename>
+        <filename>images/line.jpg</filename>
+		<filename>images/vertical-line.jpg</filename>
+		<filename>images/logo.png</filename>
+	</files>
+		
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+	
+	<!-- Footer -->
+	 <params>
+		<param type="spacer" default="" />
+		<param type="spacer" default="&lt;b&gt;FOOTER&lt;/b&gt;" />
+		<param name="show_footertext" type="radio" default="1" label="Text Footer" description="footer">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+		<param name="footertext" type="textarea" default="Design by globbers for &lt;a target=&quot; _blank&quot;  href=&quot; http://www.globberstmemes&quot; &gt; globbersthemes&lt;/a>" label="Text Footer" description="Copyright Footer." rows="5" cols="33" />
+
+		<param name="color" type="list" default="tdefaut" label="Color Variation" description="Color variation to use">
+		    <option value="tdefaut">tdefaut</option>
+			<option value="orange">Orange</option>
+			<option value="cyan">Cyan</option>
+		</param>
+	  </params>
+</install>

@@ -1,0 +1,42 @@
+.bottomRow ul li a:hover {color: #3A5D76}
+
+/* Links */
+a {color:  #3F607A;border-bottom: 1px solid}
+a:hover {color: #AD6948} 
+
+/* Headings */
+h1,.componentheading {color: #333} 
+h2,.contentheading,h2 a {color: #3F607A} 
+h3,.moduletable h3 {color: #3F607A}
+h4 {color: #333} 
+h5 {color: #fff;background: #333}
+h6 {color: #fff;background: #999}
+
+
+/* Top Nav Colours */
+#nav a.mainlevel_active,#nav .mainlevel_current,#nav ul li a:hover {background: none ;color: #AD6948}
+
+/* Left, Right and Center Colours */
+#leftCol ul li a:hover,#rightCol ul li a:hover,#centerCol ul li a:hover {color: #3A5D76}
+
+/* Top Panel Hover */
+#toppanel a#open:hover {color: #AD6948}
+
+/* MicroBlog */
+
+.mbitemCols h2 a{color: #3F607A}
+
+/* Readon Links */ 
+a.jbReadon,a.k2ReadMore,.mbMoreCols a.readon {color: #AD6948} 
+
+
+/* Footer Links */ 
+#footer a {color: #AD6948}
+
+/* Slideshow Button Links */ 
+.slideshowContent span.readmore {background: url(../images/blueButton.png) no-repeat;height: 36px;width: 125px;color: #fff;padding-top: 12px} 
+
+/* Top Panel Trigger */ 
+#toppanel a#open {background: url(../images/blueTrigger.png) no-repeat center top;color: #ccc;padding-top: 15px;}
+
+

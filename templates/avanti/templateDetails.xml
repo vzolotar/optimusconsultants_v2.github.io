@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.5" type="template">
+	<name>Avanti</name>
+	<creationDate>June, 2009</creationDate>
+	<author>Anthony Olsen</author>
+	<copyright>Joomla Bamboo, 2007.</copyright>
+	<authorEmail>design@joomlabamboo.com</authorEmail>
+	<authorUrl>www.joomlabamboo.com</authorUrl>
+	<version>1.0.3</version>
+	<description><![CDATA[
+<p style="line-height:180%"><a href="http://www.joomlabamboo.com"><img src="http://www.joomlabamboo.com/images/JB_logo.jpg" alt="joomla Bamboo" style="float:left;margin-right:20px;margin-bottom:20px;border:1px solid #ddd"/></a><br style="clear:both" /><p><span style="font-weight: bold;">Avanti is a smooth business Joomla template with a creative edge - Its the perfect vehicle to put your business out in front at the start of a new decade.</span></p>]]></description>
+	<files>
+			<folder>accordion</folder>
+			<folder>css</folder>
+			<filename>favicon.ico</filename>
+			<folder>html</folder>
+			<folder>images</folder>
+			<folder>js</folder>
+			<folder>style</folder>
+			<folder>superfish</folder>
+			<filename>index.html</filename>
+			<filename>index.php</filename>
+			<filename>params.ini</filename>
+			<filename>template_thumbnail.png</filename>
+			<filename>templateDetails.xml</filename>
+			<filename>vars.php</filename>
+			<filename>component.php</filename>
+	</files>
+	<positions>
+		<position>panel1</position>
+		<position>panel2</position>
+		<position>panel3</position>
+		<position>panel4</position>
+		<position>top1</position>
+		<position>top2</position>
+		<position>top3</position>
+		<position>top4</position>
+		<position>header1</position>
+		<position>header2</position>
+		<position>header3</position>
+		<position>header4</position>
+		<position>menu</position>
+		<position>breadcrumb</position>
+		<position>grid1</position>
+		<position>grid2</position>
+        <position>grid3</position>
+		<position>grid4</position>
+        <position>grid5</position>
+		<position>grid6</position>
+        <position>grid7</position>
+		<position>grid8</position>
+        <position>grid9</position>
+		<position>grid10</position>
+        <position>grid11</position>
+		<position>grid12</position>
+		<position>above</position>
+		<position>left</position>
+		<position>center</position>
+        <position>advert1</position>
+		<position>advert2</position>
+		<position>advert3</position>
+		<position>advert4</position>
+		<position>advert5</position>
+		<position>advert6</position>
+		<position>right</position>
+        <position>below</position>
+        <position>grid13</position>
+		<position>grid14</position>
+        <position>grid15</position>
+		<position>grid16</position>
+        <position>grid17</position>
+		<position>grid18</position>
+        <position>grid19</position>
+		<position>grid20</position>
+        <position>grid21</position>
+		<position>grid22</position>
+        <position>grid23</position>
+		<position>grid24</position>
+		<position>bottom1</position>
+		<position>bottom2</position>
+		<position>bottom3</position>
+		<position>bottom4</position>
+		<position>bottom5</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+	<params>
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;background:#eee;&quot;&gt;&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold;font-size:14px;color:#fff;padding:4px;margin:0;background:#333;&quot;&gt;Template Theme&lt;/div&gt;" label="" description="" />
+	<param name="@spacer" type="spacer" default="&lt;div&gt;The following parameters control the overall look and feel of the template.&lt;/div&gt;" />
+	<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+	<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;&gt;Fonts Stacks.&lt;/div&gt;" />
+		<param name="fontStackBody" type="list" default="default" label="Font-Family Body" description="Select the font stack to use for the body styling">
+			<option value="courier">“Courier new”, Courier, “Andale Mono”</option>
+			<option value="helvetica">Helvetica Neue, Helvetica, Arial, sans-serif;</option>
+			<option value="baskerville">Baskerville, Palatino, ‘Palatino Linotype’, Georgia, Serif</option>
+			<option value="geneva">Geneva, ‘Lucida Sans’, Verdana, sans-serif</option>
+			<option value="gillsans">GillSans, Calibri, Trebuchet, arial sans-serif</option>
+			<option value="cambria">Cambria, Georgia, Times, ‘Times New Roman’, serif</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="fontStackHeading" type="list" default="default" label="Font-Family Headings" description="Select the font stack to use for the headings styling">
+			<option value="garamond">Garamond, ‘Times New Roman’, Times, serif</option>
+			<option value="helveticaH">Helvetica Neue, Helvetica, Arial, sans-serif</option>
+			<option value="lucida">Lucida Grande, Geneva, Helvetica, sans-serif</option>
+			<option value="caslon">Adobe Caslon Pro, Georgia, Garamond, Times, serif</option>
+			<option value="georgia">Georgia, Times, ‘Times New Roman’, serif</option>
+			<option value="tahoma">Tahoma, Verdana, Geneva</option>
+			<option value="trebuchet">trebuchet ms, Tahoma, Arial, sans-serif</option>
+			<option value="palatino">Palatino, ‘Times New Roman’, serif</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="fontStackNav" type="list" default="helvetica" label="Navigation Font Stack" description="Select the font stack to use for the headings styling">
+			<option value="garamond">Garamond, ‘Times New Roman’, Times, serif</option>
+			<option value="helvetica">Helvetica Neue, Helvetica, Arial, sans-serif</option>
+			<option value="lucida">Lucida Grande, Geneva, Helvetica, sans-serif</option>
+			<option value="caslon">Adobe Caslon Pro, Georgia, Garamond, Times, serif</option>
+			<option value="georgia">Georgia, Times, ‘Times New Roman’, serif</option>
+			<option value="tahoma">Tahoma, Verdana, Geneva</option>
+			<option value="trebuchet">trebuchet ms, Tahoma, Arial, sans-serif</option>
+			<option value="palatino">Palatino, ‘Times New Roman’, serif</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="fontSize" type="text" default="80%" label="Font Size" description="This can be a px or % and sets the base size of the fonts on the site." />
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;&gt;Logo Settings.&lt;/div&gt;" />
+		<param name="@spacer" type="spacer" default="To have your logo display in the dropdownlist you need to upload the folder to templates/avanti/style/logo" />
+		<param name="logoFile" type="imagelist" default="" label="Logo image"  description="Select the image to use for your logo. Your logo should be uploaded to the templates/zengrid/style/logo folder" directory="templates/avanti/style/logo" exclude="" stripext="" />
+		<param name="logoLink" type="text" default="index.php" label="Logo hyperlink" description="Type the relative or absolute url for the link attached to the logo." />
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;&gt;Color Settings.&lt;/div&gt;" />
+		<param name="bgImage" type="imagelist" default="" label="Background Image"  description="Select the image to use for the background of the banner row div. Your image should be uploaded to the templates/avanti/style/bg folder" directory="templates/avanti/style/bg" exclude="" stripext="" />
+		<param name="hilite" type="filelist" default="" label="Typographical Hilite"  description="Select the colour hilite to use on your site for links and typography. Should you want to create your own your css file should be uploaded to the templates/avanti/style/hilite folder" directory="templates/avanti/style/hilite" exclude="" stripext="true" />
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold;font-size:14px;color:#fff;padding:4px;margin:0;background:#333;&quot;&gt;Template Layout&lt;/div&gt;" label="" description="" />
+    	 <param name="@spacer" type="spacer" default="&lt;div style=&quot;line-height:2em&quot;&gt;The following values control the format/layout of the template. This theme uses a complex grid system that is incredibly flexible so please be sure to read all documentation. If you feel a little overwhelmed you can leave the default settings where they are.&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;" label="" description="" />
+    	 <param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;;&gt;General Width Settings&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following values control the general and overall layout of the template. Set the template width, the number of the columns the page should be divided into and then specify the the width of the gutter in between each column.&lt;/div&gt;&lt;br /&gt;" label="" description="" />
+    	<param name="position" type="list" default="1" label="Main Container alignment" description="Select the alignment of the main container">
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;line-height:2em&quot;&gt;Set the distance from the left or right margin if the above setting is left or right. This can be a px or % width and needs to have px or % after the value.&lt;/div&gt;" label="" description="" />
+    	<param name="containerMargin" type="text" default="0" label="Left or right offset" description="Set th eleft or right offset of the main container if the template is positioned to the left or right using the position setting above." />
+    	<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+    	<param name="@spacer" type="spacer" default="&lt;div style=&quot;line-height:2em&quot;&gt;Set the overall width of the template.&lt;/div&gt;" label="" description="" />
+    	<param name="tWidth" type="text" default="980" label="Template Width" description="This setting controls the overall width of the template including the margins." />
+    	<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+    	<param name="@spacer" type="spacer" default="&lt;div style=&quot;line-height:2em&quot;&gt;Set the number of columns to divide the website container into.&lt;/div&gt;" label="" description="" />
+   		<param name="cols" type="list" default="12" label="Number of Columns" description="Select the background image of the template">
+			<option value="12">12</option>
+			<option value="16">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;line-height:2em&quot;&gt;Set the width of the buffer between each column.&lt;/div&gt;&lt;br /&gt;" label="" description="" />
+    	<param name="gutter" type="text" default="20" label="Gutter Width" description="This setting controls the margin between each grid element." />
+    	<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+    	<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;;&gt;Top Row of Modules&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following values need to add up to the total number of columns specified above. If any of the module positions in this row arent published then the value assigned to them does not count.&lt;/div&gt;" label="" description="" />
+		<param name="topEqual" type="list" default="1" label="Module widths" description="Select whether to equalise the modules published to a specific row. If set to use individual widths then the ratios below will have a bearing on the widths.">
+			<option value="0">Use individual module position widths below</option>
+			<option value="1">Equalise width according to number of modules published</option>
+		</param>
+		<param name="top1Width" type="list" default="yes" label="Top1 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="top2Width" type="list" default="yes" label="Top2 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="top3Width" type="list" default="yes" label="Top3 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="top4Width" type="list" default="yes" label="Top4 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+    	<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;;&gt;Header Row of Modules&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following values need to add up to the total number of columns specified above. If any of the module positions in this row arent published then the value assigned to them does not count. Please note that if you have chosen to display the logo on the same level as the menu then this row contains header1, header2, header3 and header4 module positions, otherwise if you display the logo in this row then there are only modules header2 to header4 available.&lt;/div&gt;" label="" description="" />
+		<param name="headerEqual" type="list" default="1" label="Module widths" description="Select whether to equalise the modules published to a specific row. If set to use individual widths then the ratios below will have a bearing on the widths.">
+			<option value="0">Use individual module position widths below</option>
+			<option value="1">Equalise width according to number of modules published</option>
+		</param>
+		<param name="header1Width" type="list" default="yes" label="Header1 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="header2Width" type="list" default="yes" label="Header2 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="header3Width" type="list" default="yes" label="Header3 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="header4Width" type="list" default="yes" label="Header4 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;;&gt;Logo and Navigation Strip&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following values need to add up to the total number of columns specified above. If any of the module positions in this row arent published then the value assigned to them does not count. If the logo is published to the header row then it takes the position of the header1 image.&lt;/div&gt;" label="" description="" />
+		<param name="logoPosition" type="list" default="below" label="Logo Position" description="Set the row for where the logo should be positioned.">
+			<option value="above">On same row as header module positions</option>
+			<option value="below">On same row as the nav</option>
+		</param>
+		<param name="navLeft" type="list" default="below" label="Menu alignment" description="Select whether to align the menu to the left or the right. Select the left if you are choosing to hide the logo or display the logo in the header row.">
+			<option value="1">Align menu to the left</option>
+			<option value="0">Align menu to the right</option>
+		</param>
+		<param name="logoWidth" type="list" default="four" label="Logo Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="navWidth" type="list" default="twelve" label="Navigation Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		    	<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		    	<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;;&gt;Top three rows of the grid&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following three blocks of parameters refer to the top three rows of grid modules.&lt;/div&gt;" label="" description="" />
+				<param name="grid1Equal" type="list" default="1" label="Module widths" description="Select whether to equalise the modules published to a specific row. If set to use individual widths then the ratios below will have a bearing on the widths.">
+			<option value="0">Use individual module position widths below</option>
+			<option value="1">Equalise width according to number of modules published</option>
+		</param>
+		<param name="grid1Width" type="list" default="three" label="Grid1 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid2Width" type="list" default="three" label="Grid2 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid3Width" type="list" default="three" label="Grid3 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid4Width" type="list" default="three" label="Grid4 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="grid2Equal" type="list" default="1" label="Module widths" description="Select whether to equalise the modules published to a specific row. If set to use individual widths then the ratios below will have a bearing on the widths.">
+			<option value="0">Use individual module position widths below</option>
+			<option value="1">Equalise width according to number of modules published</option>
+		</param>
+		<param name="grid5Width" type="list" default="three" label="Grid5 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid6Width" type="list" default="three" label="Grid6 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid7Width" type="list" default="three" label="Grid7 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid8Width" type="list" default="three" label="Grid8 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="grid3Equal" type="list" default="1" label="Module widths" description="Select whether to equalise the modules published to a specific row. If set to use individual widths then the ratios below will have a bearing on the widths.">
+			<option value="0">Use individual module position widths below</option>
+			<option value="1">Equalise width according to number of modules published</option>
+		</param>
+		<param name="grid9Width" type="list" default="three" label="Grid9 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid10Width" type="list" default="three" label="Grid10 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid11Width" type="list" default="three" label="Grid11 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid12Width" type="list" default="three" label="Grid12 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;;&gt;Advert1-3 row of modules&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following three blocks of parameters refer to the top three Advert module positions.&lt;/div&gt;" label="" description="" />
+		<param name="advert1Width" type="list" default="two" label="Advert1 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="advert2Width" type="list" default="two" label="Advert2 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="advert3Width" type="list" default="two" label="Advert3 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;;&gt;Main Content Area - Center Module&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following parameter control the position of the center module relative to the main content area. This setting is only relevant if the center module is published.&lt;/div&gt;" label="" description="" />
+		<param name="mainLayout" type="list" default="two" label="Center module position" description="Set the width of this module position.">
+			<option value="1">Center module published before main content</option>
+			<option value="2">Center module published after main content</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;&gt;Main Content Widths - Left Column&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following parameters control the layout and widths for the left and main content/component space in the template in left column mode. This mode is triggered when you have at least one module published to the left position and no modules published to the right and center positions.&lt;/div&gt;" label="" description="" />
+				<param name="leftCols2L" type="list" default="three" label="Left Column Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="midCols2L" type="list" default="nine" label="Main Content Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;&gt;Main Content Widths - Right Column&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following parameters control the layout and widths for the right module and main content/component space in the template in right column mode. This mode is triggered when you have at least one module published to the right position and no modules published to the left and center positions.&lt;/div&gt;" label="" description="" />
+			<param name="midCols2R" type="list" default="nine" label="Main Content Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="rightCols2R" type="list" default="three" label="Right Column Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+				<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+				<param name="@spacer" type="spacer" default="" label="" description="" />
+				<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;&gt;Main Content Widths - Three Columns&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following parameters control the layout and widths for the left, right and main content/component space in the template in three column mode. This mode is triggered when you have at least one module published to the left and right position and no modules published to the center positions.&lt;/div&gt;" label="" description="" />
+				<param name="leftCols3LR" type="list" default="four" label="Left Column Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="midCols3LR" type="list" default="four" label="Main Content Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="rightCols3LR" type="list" default="four" label="Right Column Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;&gt;Main Content Widths - Four Columns (left + center + maincontent + right)&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following parameters control the layout and widths for the left, right and main content/component space in the template in three column mode. This mode is triggered when you have at least one module published to the left, right and center module positions.&lt;/div&gt;" label="" description="" />
+				<param name="leftCols4LRC" type="list" default="three" label="Left Column Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="midCols4LRC" type="list" default="three" label="Main Content Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+			<param name="centerCols4LRC" type="list" default="three" label="Center Column Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="rightCols4LRC" type="list" default="three" label="Right Column Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;&gt;Main Content Widths - Three Columns (left + center + main content)&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following parameters control the layout and widths for the left, right and main content/component space in the template in three column mode. This mode is triggered when you have at least one module published to the left and center position and no modules published to the right positions.&lt;/div&gt;" label="" description="" />
+			<param name="leftCols3LC" type="list" default="three" label="Left Column Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="centerCols3LC" type="list" default="three" label="Center Column Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="midCols3LC" type="list" default="six" label="Main Content Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+			<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;&gt;Main Content Widths - Three Columns (main content + center + right)&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following parameters control the layout and widths for the left, right and main content/component space in the template in three column mode. This mode is triggered when you have at least one module published to the left and center position and no modules published to the right positions.&lt;/div&gt;" label="" description="" />
+			<param name="midCols3RC" type="list" default="six" label="Main Content Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="centerCols3RC" type="list" default="three" label="Center Column Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="rightCols3RC" type="list" default="three" label="Right Column Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;;&gt;Advert4-6 row of modules&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following three blocks of parameters refer to the bottom three Advert module positions.&lt;/div&gt;" label="" description="" />
+		<param name="advert4Width" type="list" default="two" label="Advert4 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="advert5Width" type="list" default="two" label="Advert5 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="advert6Width" type="list" default="two" label="Advert6 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;;&gt;Bottom three rows of the grid&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following three blocks of parameters refer to the bottom three rows of grid modules.&lt;/div&gt;" label="" description="" />
+		<param name="grid4Equal" type="list" default="1" label="Module widths" description="Select whether to equalise the modules published to a specific row. If set to use individual widths then the ratios below will have a bearing on the widths.">
+			<option value="0">Use individual module position widths below</option>
+			<option value="1">Equalise width according to number of modules published</option>
+		</param>
+		<param name="grid13Width" type="list" default="three" label="Grid13 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid14Width" type="list" default="three" label="Grid14 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid15Width" type="list" default="three" label="Grid15 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid16Width" type="list" default="three" label="Grid16 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="grid5Equal" type="list" default="1" label="Module widths" description="Select whether to equalise the modules published to a specific row. If set to use individual widths then the ratios below will have a bearing on the widths.">
+			<option value="0">Use individual module position widths below</option>
+			<option value="1">Equalise width according to number of modules published</option>
+		</param>
+		<param name="grid17Width" type="list" default="three" label="Grid17 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid18Width" type="list" default="three" label="Grid18 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid19Width" type="list" default="three" label="Grid19 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid20Width" type="list" default="three" label="Grid20 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="grid6Equal" type="list" default="1" label="Module widths" description="Select whether to equalise the modules published to a specific row. If set to use individual widths then the ratios below will have a bearing on the widths.">
+			<option value="0">Use individual module position widths below</option>
+			<option value="1">Equalise width according to number of modules published</option>
+		</param>
+		<param name="grid21Width" type="list" default="three" label="Grid21 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid22Width" type="list" default="three" label="Grid22 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid23Width" type="list" default="three" label="Grid23 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="grid24Width" type="list" default="three" label="Grid24 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;;&gt;Bottom Module Positions (Bottom1 to bottom4)&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following values need to add up to the total number of columns specified above. If any of the module positions in this row arent published then the value assigned to them does not count.&lt;/div&gt;" label="" description="" />
+		<param name="bottomEqual" type="list" default="1" label="Module widths" description="Select whether to equalise the modules published to a specific row. If set to use individual widths then the ratios below will have a bearing on the widths.">
+			<option value="0">Use individual module position widths below</option>
+			<option value="1">Equalise width according to number of modules published</option>
+		</param>
+		<param name="bottom1Width" type="list" default="yes" label="Bottom1 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="bottom2Width" type="list" default="yes" label="Bottom2 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="bottom3Width" type="list" default="yes" label="Bottom3 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="bottom4Width" type="list" default="yes" label="Bottom4 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="bottom5Width" type="list" default="yes" label="Bottom5 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold;font-size:14px;color:#fff;padding:4px;margin:0;background:#333;&quot;&gt;Menu Scripts&lt;/div&gt;" label="" description="" />
+    <param name="@spacer" type="spacer" default="&lt;div style=&quot;line-height:2em&quot;&gt;The following setting controls the way that the Superfish menu appears on your site.&lt;/div&gt;" label="" description="" />
+    	<param name="@spacer" type="spacer" default="&lt;div style=&quot;line-height:2em&quot;&gt;The following setting controls the way that the Superfish menu appears on your site.&lt;/div&gt;" label="" description="" />
+		 <param name="superfish" type="list" default="yes" label="Enable scripts for Superfish Menu" description="This option enables the script for the superfish menu for the template. This script will only be output on the page if the left or right module positions have modules published to them.">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="sfEffect" type="list" default="yes" label="Superfish Transition Type" description="Select the type of transition you would like applied to the superfish menu.">
+			<option value="1">Vertical</option>
+			<option value="2">Horizontal</option>
+			<option value="3">Fade</option>
+			<option value="4">Horizontal and Fade</option>
+			<option value="5">Vertical and Fade</option>
+			<option value="6">Vertical and Horizontal and Fade</option>
+			<option value="7">Vertical and Horizontal</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;line-height:2em&quot;&gt;Set this option to yes if you intend to use the Panel Menu. You also need to install the extended menu module for the panel menu to work. If you arent using the Panel Menu then its advised to set this to no in order to reduce the size of your page load.&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;" label="" description="" />
+		<param name="panelMenu" type="list" default="yes" label="Enable scripts for Panel Menu" description="This option enables the script for the panel menu for the template. This script will only be output on the page if the left or right module positions have modules published to them.">
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold;font-size:14px;color:#fff;padding:4px;margin:0;background:#333;&quot;&gt;Panel Settings&lt;/div&gt;" label="" description="" />
+    	    	 <param name="@spacer" type="spacer" default="&lt;div style=&quot;line-height:2em&quot;&gt;The following settings change the text for the open and close button for the drop panel. In order for the button to appear you need to make sure that at least one module i spublished to the panel1, panel2, panel3 or panel4 positions. If you would like to disable the panel then make sure there are no modules published to these positions.&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;" label="" description="" />
+		<param name="openPanel" type="text" default="Open Panel" label="Panel Open Text" description="Enter the text you would like displayed in the tab that triggers the sliding panel to open." />
+					<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+					<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold&quot;;&gt;Width of the modules in the Panel (Panel1 to Panel4)&lt;/div&gt;&lt;div style=&quot;line-height:2em&quot;;&gt;The following values need to add up to the total number of columns specified above. If any of the module positions in this row arent published then the value assigned to them does not count.&lt;/div&gt;" label="" description="" />
+		<param name="panelEqual" type="list" default="1" label="Panel Module widths" description="Select whether to equalise the modules published to a specific row. If set to use individual widths then the ratios below will have a bearing on the widths.">
+			<option value="0">Use individual module position widths below</option>
+			<option value="1">Equalise width according to number of modules published</option>
+		</param>
+		<param name="panel1Width" type="list" default="yes" label="Panel1 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="panel2Width" type="list" default="yes" label="Panel2 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="panel3Width" type="list" default="yes" label="Panel3 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="panel4Width" type="list" default="yes" label="Panel4 Width" description="Set the width of this module position.">
+			<option value="two">2</option>
+			<option value="three">3</option>
+			<option value="four">4</option>
+			<option value="five">5</option>
+			<option value="six">6</option>
+			<option value="seven">7</option>
+			<option value="eight">8</option>
+			<option value="nine">9</option>
+			<option value="ten">10</option>
+			<option value="eleven">11</option>
+			<option value="twelve">12</option>
+			<option value="thirteen">13</option>
+			<option value="fourteen">14</option>
+			<option value="sixteen">16</option>
+		</param>
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;div style=&quot;font-weight:bold;font-size:14px;color:#fff;padding:4px;margin:0;background:#333;&quot;&gt;Analytics Code&lt;/div&gt;" label="" description="" />
+		<param name="@spacer" type="spacer" default="&lt;br /&gt;" label="" description="" />
+		<param name="analytics" type="textarea" rows="20" cols="50" default="" label="Analytics Code" description="Enter the javascript for your statistics software including the script tags." />
+	</params>
+</install>

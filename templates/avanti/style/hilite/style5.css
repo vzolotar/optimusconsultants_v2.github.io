@@ -1,0 +1,38 @@
+.bottomRow ul li a:hover {color: #793606}
+
+/* Links */
+a {color: #007079;border-bottom: 1px solid}
+a:hover {color: #793606}
+
+/* Headings */
+h1,.componentheading {color: #793606} 
+h2,.contentheading,h2 a {color: #793606} 
+h3,.moduletable h3 {color: #793606}
+h4 {color: #333} 
+h5 {color: #fff;background: #333}
+h6 {color: #fff;background: #999}
+
+
+/* Top Nav Colours */
+#nav a.mainlevel_active,#nav .mainlevel_current,#nav ul li a:hover {background: none ;color: #007079}
+#nav ul li a {color: #fff;}
+
+/* Left, Right and Center Colours */
+#leftCol ul li a:hover,#rightCol ul li a:hover,#centerCol ul li a:hover {color: #793606}
+
+/* Top Panel Hover */
+#toppanel a#open:hover {color: #793606}
+
+/* MicroBlog */
+.mbMoreCols a.readon {color: #793606}
+.mbitemCols h2 a:hover {color: #793606}
+.mbitemCols h2 a{color:#007079}
+
+/* Readon Links */
+a.jbReadon,a.k2ReadMore {color: #007079}
+
+/* Slideshow Button Links */ 
+.slideshowContent span.readmore {background: url(../images/orangeButton.png) no-repeat;height: 36px;width: 110px;color: #793606;padding-top: 11px;padding-right: 15px;} 
+
+/* Top Panel Trigger */ 
+#toppanel a#open {background: url(../images/orangeTrigger.png) no-repeat center top;color: #ccc;padding-top: 15px;} 

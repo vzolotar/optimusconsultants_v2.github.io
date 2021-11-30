@@ -1,0 +1,25 @@
+/* orange */
+
+#newsflash h3 {color: #ff8400;}
+
+a:hover {color: #ff8400;}
+
+.highlight{background:#ff8400;}
+
+.button {background:#ff8400;}
+
+#navigation a:hover{color: #ff8400;}
+
+.contentheading ,.componentheading, a.contentpagetitle {color:#ff8400;}
+
+a.pagenav:hover {background:#ff8400;}
+
+.sectiontableheader {background:#ff8400;}
+
+div.moduletable h3,div.moduletable_menu h3,div.moduletable_text h3 {color:#ff8400;}
+
+#users .moduletable h3,#users .moduletable_menu h3,#users .moduletable_text h3 {color:#ff8400;}
+
+
+
+ .subscribe_button {background:#ff8400;}

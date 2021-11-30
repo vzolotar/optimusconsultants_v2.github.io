@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>Vanenborg</name>
+	<creationDate>octobre/10</creationDate>
+	<author>globbers</author>
+	<authorEmail>globbers@hotmail.fr</authorEmail>
+	<authorUrl>http://www.globbersthemes.com</authorUrl>
+	<license>creative commons license</license>
+	<version>1.0</version>
+	<description>
+	
+	<![CDATA[<h1>Vanenborg Free Template </h1>
+
+			<img src="http://www.globbersthemes.com/images/vanenborg.jpg" align="left" style="margin: 0px 10px 10px 0px;" />
+
+			<span style="font-size: 15px;font-weight:bold;">
+			Vanenborg template is a free template ,design by globbers.
+			<span style="color:red; font-weight: bold; ">!Not for commercial!!!</span> <br />							
+			<br />Visit globbersthemes: <a href="http://adf.ly/9T0U" target="_blank">http://www.globbersthemes.com</a>.<br />
+			</span>
+			<hr />
+			<h3><b>OTHER FREE TEMPLATES </b></h3>
+				
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9TZW" target="_blank"><b>template cerniqua</b></a>.</span>
+			    <span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9TaH" target="_blank"><b>template blogana</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9Tam" target="_blank"><b>template addaman</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9TcU" target="_blank"><b>template via-granitti</b></a>.</span><br />
+				<span style="margin-right:25px;font-size:15px;"><a href="http://adf.ly/9Tbv" target="_blank"><b>template upsilum</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9Te6" target="_blank"><b>template marhance</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9Tf9" target="_blank"><b>template everhest</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9uwn" target="_blank"><b>template larrens</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9uxw" target="_blank"><b>template naturalis</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9uyO" target="_blank"><b>template dolmatia</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9uzO" target="_blank"><b>template slumbyn</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v0B" target="_blank"><b>template barbarican</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v1E" target="_blank"><b>template baakminster</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v1n" target="_blank"><b>template antesate</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v2X" target="_blank"><b>template dupliscity</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v34" target="_blank"><b>template maillers</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v3x" target="_blank"><b>template notebook</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v4b" target="_blank"><b>template archesoft</b></a>.</span><br />
+			<br /><br />]]>
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>suckerfish.php</filename>
+		<filename>params.ini</filename>
+		<filename>css/tdefaut.css</filename>
+		<filename>css/ie6.css</filename>
+		<filename>js/scroll.js</filename>
+		<filename>js/script.js</filename>
+		<filename>js/mouseover.js</filename>
+		<filename>js/jquery.js</filename>
+		<filename>js/slideshow.js</filename>
+		<filename>scripts/iepngfix.htc</filename>
+		<fileName>html/index.html</fileName>
+        <fileName>html/modules.php</fileName>
+		<fileName>html/pagination.php</fileName>
+		<filename>html/com_content/frontpage/default.php</filename>
+		<filename>html/com_content/frontpage/index.html</filename>
+		<filename>html/mod_login/default.php</filename>
+		<filename>html/mod_login/index.html</filename>
+		<filename>html/mod_search/default.php</filename>
+		<filename>html/mod_search/index.html</filename>
+		<filename>favicon.gif</filename>
+		<filename>images/bg-sitename.png</filename>
+		<filename>images/bg-tool.png</filename>
+		<filename>images/logo.png</filename>
+		<filename>images/top.jpg</filename>
+		<filename>images/slide1.jpg</filename>
+		<filename>images/slide2.jpg</filename>
+		<filename>images/slide3.jpg</filename>
+	</files>
+		
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>syndicate</position>
+		<position>login</position>
+	</positions>
+	
+	<!-- Footer -->
+	 <params>
+		<param type="spacer" default="" />
+		<param type="spacer" default="&lt;b&gt;FOOTER&lt;/b&gt;" />
+		<param name="show_footertext" type="radio" default="1" label="Text Footer" description="footer">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+		<param name="footertext" type="textarea" default="Design by globbers for &lt;a target=&quot; _blank&quot;  href=&quot; http://www.globberstmemes&quot; &gt; globbersthemes&lt;/a>" label="Text Footer" description="Copyright Footer." rows="5" cols="33" />
+
+	  </params>
+</install>

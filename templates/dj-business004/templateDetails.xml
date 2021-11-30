@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<install version="1.5" type="template">
+	<name>dj-business004</name>
+	<creationDate>20/05/2009</creationDate>
+	<author>design-joomla.eu</author>
+	<copyright>design-joomla.eu</copyright>
+	<authorEmail>joomla-monster@design-joomla.eu</authorEmail>
+	<authorUrl>design-joomla.eu</authorUrl>
+	<version>1.5</version>
+	<description><![CDATA[
+	<head>
+		<style>
+			body {
+				font-family:Arial, Helvetica, sans-serif;
+				font-size:11px;
+			}
+			a:link,
+			a:visited {
+				color:#4991c1;
+				font-weight:bold;
+			}
+			a:hover {
+				text-decoration:underline;
+			}
+			h2 {
+				color:#fa9539;
+				text-transform:uppercase;
+				font-size:16px;
+				padding:0;
+				margin:2px 0;
+			}
+			p {
+				padding:0;
+				margin:4px 0;
+			}
+			#left-logo {
+			float:left;
+			width:270px;
+			height:100px;
+			display:block;
+			padding-top:50px;
+			}
+			#right-text {
+				float:left;
+				width:400px;
+			}
+			
+			#info {
+				border:1px solid #efefef;
+				padding:10px;
+				background:#ffffff;
+			}
+			#info p {
+				font-size:10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="left-logo">
+			<img src="http://design-joomla.pl/images/design-joomla-logo.png" />
+			
+		</div>
+		
+		<div id="right-text">
+			<h2>Template dj-business004</h2>
+			
+				<p><b>Templates for Joomla! CMS</b></p>
+				<div id="info">
+					<p><b>Version:</b> 1.5</p>
+					<p><b>Date:</b> May 2009</p>
+					<p><b>Client:</b> Random</p>
+				</div>
+
+<p>
+Unique and oryginal templates for <b>Joomla! CMS</b> <br />
+Graphic design & template code: <b>design-joomla.eu</b> <br /><a href="http://www.design-joomla.eu">http://www.design-joomla.eu</a><br /><br />
+</p>
+		
+		</div>
+		</body>
+	]]></description>
+	<files>
+<filename>index.php</filename>
+<filename>menu.php</filename>
+<filename>params.ini</filename>
+<filename>template_thumbnail.png</filename>
+<filename>css/clearing.css</filename>
+<filename>css/editor.css</filename>
+<filename>css/horizontal.css</filename>
+<filename>css/ie6.css</filename>
+<filename>css/ie7.css</filename>
+<filename>css/menus.css</filename>
+<filename>css/template.css</filename>
+<filename>images/dashed.png</filename>
+<filename>images/emailButton.png</filename>
+<filename>images/error.gif</filename>
+<filename>images/foot_b.gif</filename>
+<filename>images/foot_in.gif</filename>
+<filename>images/foot_t.gif</filename>
+<filename>images/head_b.jpg</filename>
+<filename>images/head_img.jpg</filename>
+<filename>images/head_in.jpg</filename>
+<filename>images/head_slogan.jpg</filename>
+<filename>images/head_t.jpg</filename>
+<filename>images/icon_email.gif</filename>
+<filename>images/icon_home.gif</filename>
+<filename>images/icon_sitemap.gif</filename>
+<filename>images/icon_spacer.gif</filename>
+<filename>images/indent1.png</filename>
+<filename>images/indent2.png</filename>
+<filename>images/info.gif</filename>
+<filename>images/list.png</filename>
+<filename>images/logo.gif</filename>
+<filename>images/mainlev.png</filename>
+<filename>images/menu_bg.gif</filename>
+<filename>images/menu_hov.gif</filename>
+<filename>images/menu_sep.gif</filename>
+<filename>images/module_b.gif</filename>
+<filename>images/module_in.gif</filename>
+<filename>images/module_t.gif</filename>
+<filename>images/pdf_button.png</filename>
+<filename>images/printButton.png</filename>
+<filename>images/search_butt.gif</filename>
+<filename>images/search_input.gif</filename>
+<filename>images/tips.gif</filename>
+<filename>images/top_bg.gif</filename>
+<filename>js/animation.js</filename>
+<filename>js/cssmenus.js</filename>
+</files>
+<positions>
+		<position>user3</position>
+		<position>user4</position>
+		<position>header</position>
+		<position>top</position>
+		<position>left</position>
+		<position>right</position>
+		<position>copyrights</position>
+	</positions>
+</install>

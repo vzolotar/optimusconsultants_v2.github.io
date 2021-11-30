@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<install type="module" version="1.5">		
+<name>Carrousel Gallery</name>
+<author>Globbers </author>
+<creationDate>avril 2010</creationDate>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<authorEmail>globbers@hotmail.fr</authorEmail>
+<authorUrl>http://www.globbersthemes.com/</authorUrl>
+<version>1.5.0</version>
+<description>Module carrousel gallery with link image!!!!</description>
+
+<files>
+      	<filename module="mod_carrousel_gallery">mod_carrousel_gallery.php</filename> 
+		<filename>mod_carrousel_gallery.xml</filename>
+		<filename>img/spotlight.jpg</filename>
+		<filename>img/spotlight2.jpg</filename>
+		<filename>img/button-next.png</filename>
+		<filename>img/button-prev.png</filename>
+		<filename>img/bg-carrousel.png</filename>
+		<filename>js/slide.js</filename>
+		<filename>js/adon.js</filename>	
+		<filename>css/style.css</filename>	
+</files>
+
+  <params>
+  
+    <param name="@spacer" type="spacer" default="" label="" description="" />
+	<param type="spacer" default="Image 1" />
+	<param name="spotlightImage" type="text" default="modules/mod_carrousel_gallery/img/spotlight.jpg" size="60" label="Carousel Image Path 1" description="ex: images/stories/food/bread.jpg" />
+    <param name="link" type="text" default="http://www.globbersthemes.com" size="50" label="Carrousel link Path" description="ex: http://www.globbersthemes.com " />
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	<param type="spacer" default="Image 2" />
+    <param name="spotlightImage2" type="text" default="modules/mod_carrousel_gallery/img/spotlight2.jpg" size="60" label="Carrousel Image Path 2" description="ex: images/stories/food/bread.jpg" />
+	<param name="link2" type="text" default="http://www.globbersthemes.com" size="50" label="Carrousel link Path" description="ex: http://www.globbersthemes.com " />
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	<param type="spacer" default="Image 3" />
+    <param name="spotlightImage3" type="text" default="modules/mod_carrousel_gallery/img/spotlight.jpg" size="60" label="Carrousel Image Path 3" description="ex: images/stories/food/bread.jpg" />
+	<param name="link3" type="text" default="http://www.globbersthemes.com" size="50" label="Carousel link Path" description="ex: http://www.globbersthemes.com " />
+	
+	<param name="@spacer" type="spacer" default="" label="" description="" />
+	<param name="block_w" type="text" default="619px" label="Width" description=" specify px " />
+	<param name="block_h" type="text" default="229px" label="Height" description=" specify px " />
+	<param name="auto" type="text" default="10000" label="auto carrousel" description="paramettre automatique" /> 
+
+	
+</params>
+</install>		

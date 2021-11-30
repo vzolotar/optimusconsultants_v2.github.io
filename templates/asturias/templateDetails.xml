@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>Asturias</name>
+	<creationDate>Novembre/10</creationDate>
+	<author>globbers</author>
+	<authorEmail>globbers@hotmail.fr</authorEmail>
+	<authorUrl>http://www.globbersthemes.com</authorUrl>
+	<license>creative commons license</license>
+	<version>1.0</version>
+	<description>
+	
+	<![CDATA[<h1>Asturias Free Template </h1>
+
+			<img src="http://www.globbersthemes.com/images/asturias.jpg" align="left" style="margin: 0px 10px 10px 0px;" />
+
+			<span style="font-size: 15px;font-weight:bold;">
+			Asturias template is a free template ,design by globbers.
+			<span style="color:red; font-weight: bold; ">!Not for commercial!!!</span> <br />							
+			<br />Visit globbersthemes: <a href="http://adf.ly/9T0U" target="_blank">http://www.globbersthemes.com</a>.<br />
+			</span>
+			<hr />
+			<h3><b>OTHER FREE TEMPLATES </b></h3>
+			
+			    <span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9vSf" target="_blank"><b>template vanenborg</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9TZW" target="_blank"><b>template cerniqua</b></a>.</span><br />
+			    <span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9TaH" target="_blank"><b>template blogana</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9Tam" target="_blank"><b>template addaman</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9TcU" target="_blank"><b>template via-granitti</b></a>.</span>
+				<span style="margin-right:25px;font-size:15px;"><a href="http://adf.ly/9Tbv" target="_blank"><b>template upsilum</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9Te6" target="_blank"><b>template marhance</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9Tf9" target="_blank"><b>template everhest</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9uwn" target="_blank"><b>template larrens</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9uxw" target="_blank"><b>template naturalis</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9uyO" target="_blank"><b>template dolmatia</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9uzO" target="_blank"><b>template slumbyn</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v0B" target="_blank"><b>template barbarican</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v1E" target="_blank"><b>template baakminster</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v1n" target="_blank"><b>template antesate</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v2X" target="_blank"><b>template dupliscity</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v34" target="_blank"><b>template maillers</b></a>.</span>
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v3x" target="_blank"><b>template notebook</b></a>.</span><br />
+				<span style="margin-right:20px;font-size:15px;"><a href="http://adf.ly/9v4b" target="_blank"><b>template archesoft</b></a>.</span>
+				
+			<br /><br />]]>
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>suckerfish.php</filename>
+		<filename>params.ini</filename>
+		<filename>css/tdefaut.css</filename>
+		<filename>css/ie6.css</filename>
+		<filename>css/ie7.css</filename>
+		<filename>js/scroll.js</filename>
+		<filename>js/script.js</filename>
+		<filename>js/mouseover.js</filename>
+		<filename>js/faded.js</filename>
+		<filename>js/jquery.js</filename>
+		<filename>js/DD_roundies_0.0.2a-min.js</filename>
+		<filename>scripts/iepngfix.htc</filename>
+		<fileName>html/index.html</fileName>
+        <fileName>html/modules.php</fileName>
+		<fileName>html/pagination.php</fileName>
+		<filename>html/com_content/frontpage/default.php</filename>
+		<filename>html/com_content/frontpage/index.html</filename>
+		<filename>html/mod_login/default.php</filename>
+		<filename>html/mod_login/index.html</filename>
+		<filename>images/logo.png</filename>
+		<filename>images/slide1.jpg</filename>
+		<filename>images/slide2.jpg</filename>
+		<filename>images/slide3.jpg</filename>
+		<filename>images/slide4.jpg</filename>
+		<filename>images/slide5.jpg</filename>
+		<filename>images/slide6.jpg</filename>
+		<filename>images/slide7.jpg</filename>
+		<filename>images/top.png</filename>
+		<filename>images/bg.jpg</filename>
+		<filename>images/bg-content.jpg</filename>
+		<filename>images/bg-page-hover.png</filename>
+	</files>
+		
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>syndicate</position>
+		<position>login</position>
+		<position>tab1</position>
+		<position>tab2</position>
+		<position>tab3</position>
+	</positions>
+	
+	<!-- tabs -->
+	 <params>
+	    
+		<param name="Option" type="spacer" default="Globbersthemes Tab Option" label="" Description="" />
+		<param name="gl_tab" type="list" default="0" label=" Tab" description="TAB DESCRIPTION">
+			<option value="0">no</option>
+			<option value="1">yes</option>
+		</param>
+		<param name="gl_tab1" type="text" size="40" default="" label="Tab Name 1" description="TAB NAME" />
+		<param name="gl_tab2" type="text" size="40" default="" label="Tab Name 2" description="TAB NAME" />
+		<param name="gl_tab3" type="text" size="40" default="" label="Tab Name 3" description="TAB NAME" />
+		
+	  </params>
+</install>

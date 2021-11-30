@@ -1,0 +1,58 @@
+/* CSS Document */
+
+/* border for images with class = border_img  */
+.border_img{ border: 1px solid #D4D3C3; padding: 3px; float: left; margin: 5px;}
+/* CSS Document */
+
+/* design of paragraph with class = error */
+p.error {
+    display: block;
+    background: #FAE8E8 url(../images/error.gif) 10px 7px no-repeat;
+    color: #CD3301;
+    border-top: 2px solid #CD3301;
+    border-bottom: 2px solid #CD3301;
+    padding: 10px 15px 10px 45px;
+    text-align: justify;
+}
+
+/* design of paragraph with class = error */
+p.tips {
+    display: block;
+    background: #ECF2FE url(../images/tips.gif) 10px 7px no-repeat;
+    color: #63A5FF;
+    border-top: 2px solid #63A5FF;
+    border-bottom: 2px solid #63A5FF;
+    padding: 10px 15px 10px 45px;
+    text-align: justify;
+}
+
+/* design of paragraph with class = error */
+p.info {
+    display: block;
+    background: #FDF6E4 url(../images/info.gif) 11px 7px no-repeat;
+    color: #E48049;
+    border-top: 2px solid #E48049;
+    border-bottom: 2px solid #E48049;
+    padding: 10px 15px 10px 45px;
+    text-align: justify;
+}
+
+h1{
+font-size: 2.2em;
+}
+h2{
+font-size: 2.0em;
+}
+h3{
+font-size: 1.8em;
+}
+h4{
+font-size: 1.6em;
+}
+h5{
+font-size:1.4em;
+}
+h6{
+font-size:1.2em;
+font-weight:bold;
+}

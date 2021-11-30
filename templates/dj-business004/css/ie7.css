@@ -1,0 +1,11 @@
+.menu li a:link,.menu li a:visited,
+.menu li ul li a:link,.menu li ul li a:visited,
+.menu li#current ul li a:link,.menu li#current ul li a:visited
+ { 	height: 15px; }
+#foot_b {height: 35px;}
+
+.search .button{
+margin-top: 1px;
+}
+#header_b { padding: 8px 0 5px; }
+

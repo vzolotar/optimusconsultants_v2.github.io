@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>Everhest</name>
+	<creationDate>juillet/10</creationDate>
+	<author>globbers</author>
+	<authorEmail>globbers@hotmail.fr</authorEmail>
+	<authorUrl>http://www.globbersthemes.com</authorUrl>
+	<license>creative commons license</license>
+	<version>1.0</version>
+	<description>Everhest, design by globbers for globbersthemes.
+	
+	<![CDATA[<h1>Everhest Free Template </h1>
+
+			<img src="http://www.globbersthemes.com/images/stories/everhest.jpg" align="left" style="margin: 0px 10px 10px 0px;" />
+
+			<span style="font-size: 13px;">
+			Everhest template is a free template ,design by globbers.
+			<span style="color:red; font-weight: bold; ">!Not for commercial!!!</span> <br />							
+			
+		
+			<br />Visit globbersthemes: <a href="http://www.globbersthemes.com/">http://www.globbersthemes.com</a>.
+	
+			</span>
+
+			<br /><br />]]>
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>suckerfish.php</filename>
+		<filename>params.ini</filename>
+		<filename>css/tdefaut.css</filename>
+		<filename>css/ie6.css</filename>
+		<filename>css/ie7.css</filename>
+		<filename>js/scroll.js</filename>
+		<filename>js/script.js</filename>
+		<filename>js/slideshow.js</filename>
+		<filename>js/jquery.js</filename>
+		<filename>js/mouseover.js</filename>
+		<filename>scripts/iepngfix.htc</filename>
+		<fileName>html/index.html</fileName>
+        <fileName>html/modules.php</fileName>
+		<filename>html/com_content/frontpage/default_item.php</filename>
+		<filename>html/com_content/frontpage/index.html</filename>
+		<filename>html/mod_login/default.php</filename>
+		<filename>html/mod_login/index.html</filename>
+		<filename>html/mod_search/default.php</filename>
+		<filename>html/mod_search/index.html</filename>
+		<filename>favicon.gif</filename>
+		<filename>images/blank.gif</filename>
+		<filename>images/bg-slideshow.png</filename>
+		<filename>images/bg-slideshow-ie6.jpg</filename>
+		<filename>images/bg-header.jpg</filename>
+		<filename>images/logo.png</filename>
+		<filename>images/top.png</filename>
+		<filename>images/login.jpg</filename>
+		<filename>images/login-hover.jpg</filename>
+		<filename>images/register.jpg</filename>
+		<filename>images/register-hover.jpg</filename>
+		<filename>images/search.jpg</filename>
+		<filename>images/search-hover.jpg</filename>
+		<filename>images/close.jpg</filename>
+		<filename>images/logout.jpg</filename>
+		<filename>images/bg-item.gif</filename>
+		<filename>images/page.jpg</filename>
+		<filename>images/page-act.jpg</filename>
+		<filename>images/bg-box.jpg</filename>
+		<filename>images/sep.jpg</filename>
+		<filename>images/bg-pathway.jpg</filename>
+		<filename>images/bg-col.jpg</filename>
+		<filename>images/bg-calendar.jpg</filename>
+		<filename>images/slide1.jpg</filename>
+		<filename>images/slide2.jpg</filename>
+		<filename>images/slide3.jpg</filename>
+		<filename>images/slide4.jpg</filename>
+		<filename>images/slide5.jpg</filename>
+		<filename>images/slide6.jpg</filename>
+		<filename>images/slide7.jpg</filename>
+		<filename>images/slide8.jpg</filename>
+	</files>
+		
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>syndicate</position>
+		<position>login</position>
+	</positions>
+	
+	<!-- Footer -->
+	 <params>
+		<param type="spacer" default="" />
+		<param type="spacer" default="&lt;b&gt;FOOTER&lt;/b&gt;" />
+		<param name="show_footertext" type="radio" default="1" label="Text Footer" description="footer">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+		<param name="footertext" type="textarea" default="Design by globbers for &lt;a target=&quot; _blank&quot;  href=&quot; http://www.globberstmemes&quot; &gt; globbersthemes&lt;/a>" label="Text Footer" description="Copyright Footer." rows="5" cols="33" />
+
+	  </params>
+</install>
