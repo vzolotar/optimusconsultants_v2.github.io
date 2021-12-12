@@ -13,3 +13,18 @@ modules/**/* linguist-vendored
 plugins/**/* linguist-vendored
 templates/**/* linguist-vendored
 xmlrpc/**/* linguist-vendored
+
+administrator/**/*.php linguist-detectable=false
+cache/**/*.php linguist-detectable=false
+components/**/*.php linguist-detectable=false
+images/**/*.php linguist-detectable=false
+includes/**/*.php linguist-detectable=false
+installationbak/**/*.php linguist-detectable=false
+language/**/*.php linguist-detectable=false
+libraries/**/*.php linguist-detectable=false
+logs/**/*.php linguist-detectable=false
+media/**/*.php linguist-detectable=false
+modules/**/*.php linguist-detectable=false
+plugins/**/*.php linguist-detectable=false
+templates/**/*.php linguist-detectable=false
+xmlrpc/**/*.php linguist-detectable=false
