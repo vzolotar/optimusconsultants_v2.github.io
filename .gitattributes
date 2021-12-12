@@ -1,3 +1,4 @@
+*.php linguist-detectable=false 
 administrator/**/* linguist-vendored
 cache/**/* linguist-vendored
 components/**/* linguist-vendored
