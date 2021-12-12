@@ -1,1 +1,15 @@
 *.php linguist-detectable=false 
+administrator/**/* linguist-vendored
+cache/**/* linguist-vendored
+components/**/* linguist-vendored
+images/**/* linguist-vendored
+includes/**/* linguist-vendored
+installationbak/**/* linguist-vendored
+language/**/* linguist-vendored
+libraries/**/* linguist-vendored
+logs/**/* linguist-vendored
+media/**/* linguist-vendored
+modules/**/* linguist-vendored
+plugins/**/* linguist-vendored
+templates/**/* linguist-vendored
+xmlrpc/**/* linguist-vendored
