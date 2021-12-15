@@ -13,7 +13,6 @@ modules/**/* linguist-vendored
 plugins/**/* linguist-vendored
 templates/**/* linguist-vendored
 xmlrpc/**/* linguist-vendored
-
 administrator/**/*.php linguist-detectable=false
 cache/**/*.php linguist-detectable=false
 components/**/*.php linguist-detectable=false
